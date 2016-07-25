@@ -17,4 +17,7 @@ RSpec.describe Api::GymsController, :type => :controller do
       expect(response.body).to include("Homeslice Gym")
     end
 
+    context "when a controlling_team is specified" do
+  end
+
 end
