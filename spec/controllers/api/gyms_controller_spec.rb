@@ -61,4 +61,14 @@ RSpec.describe Api::GymsController, :type => :controller do
     end
   end
 
+  describe "GET /api/gym/:id" do
+      # Set up the test's data
+
+      # Call the method
+      # Hit the gyms endpoint
+
+      # Check the method's response to
+      # Expect that the gym that we created was returned
+  end
+
 end
